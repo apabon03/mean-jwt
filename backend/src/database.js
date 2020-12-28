@@ -6,3 +6,4 @@ mongoose.connect('mongodb://localhost/angular-auth',{
 })
     .then(db => console.log('db is connected'))
     .catch(err => console.log(err))
+    
